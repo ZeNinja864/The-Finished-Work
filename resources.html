@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Finished Work | Resources</title>
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✝️</text></svg>">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4, .bible-verse { font-family: 'Crimson Pro', serif; }
+        .bg-blood { background-color: #4a0404; }
+        .text-blood { color: #8b0000; }
+        .resource-card:hover { transform: translateY(-5px); transition: all 0.3s ease; }
+        .divider-gold { border-top: 2px solid #d4af37; width: 50px; margin: 1rem 0; }
+        
+        /* Vertical Timeline Styles */
+        .timeline-container { position: relative; padding: 2rem 0; }
+        .timeline-container::before {
+            content: '';
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e2e8f0;
+        }
+        @media (min-width: 768px) {
+            .timeline-container::before {
+                left: 50%;
+                margin-left: -1px;
+            }
+        }
+        .timeline-item { position: relative; margin-bottom: 3rem; width: 100%; }
+        .timeline-dot {
+            position: absolute;
+            left: 11px;
+            top: 5px;
+            width: 20px;
+            height: 20px;
+            background: #8b0000;
+            border-radius: 50%;
+            z-index: 10;
+            border: 4px solid white;
+        }
+        @media (min-width: 768px) {
+            .timeline-dot {
+                left: 50%;
+                margin-left: -10px;
+            }
+        }
+        .timeline-content {
+            padding-left: 3rem;
+        }
+        @media (min-width: 768px) {
+            .timeline-content {
+                width: 45%;
+                padding-left: 0;
+            }
+            .timeline-item-left .timeline-content {
+                text-align: right;
+                margin-left: 0;
+            }
+            .timeline-item-right .timeline-content {
+                margin-left: 55%;
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Navigation -->
+    <nav class="bg-white/80 backdrop-blur-md border-b py-4 px-6 flex justify-between items-center sticky top-0 z-50">
+        <a href="index.html" class="text-blood font-bold tracking-tighter text-xl uppercase">The Finished Work</a>
+        <div class="space-x-6 text-xs font-semibold uppercase tracking-widest">
+            <a href="index.html" class="hover:text-blood transition-colors">The Gospel</a>
+            <a href="believe.html" class="hover:text-blood transition-colors">Why Believe</a>
+            <a href="resources.html" class="text-blood">Resources</a>
+        </div>
+    </nav>
+
+    <header class="py-16 bg-blood text-white px-6 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Deep Dive Resources</h1>
+        <p class="text-lg opacity-80 max-w-2xl mx-auto">“Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth.” — 2 Timothy 2:15</p>
+    </header>
+
+    <main class="max-w-6xl mx-auto py-16 px-6">
+        
+        <!-- Section: Rightly Dividing & Timeline -->
+        <section class="mb-20">
+            <div class="max-w-5xl mx-auto">
+                <h2 class="text-3xl font-bold mb-4 text-center">Rightly Dividing the Word</h2>
+                <p class="text-center text-gray-600 mb-12">Understanding the Bible requires recognizing the “times and seasons” of God’s plan for mankind. While all Scripture is for our learning and edification, not every instruction applies directly to the Church in the present age.</p>
+                
+                <div class="grid lg:grid-cols-4 gap-8 mb-16">
+                    <div class="lg:col-span-1">
+                        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 sticky top-24">
+                            <h3 class="font-bold text-xl text-blood">Key Principles</h3>
+                            <div class="divider-gold"></div>
+                            <ul class="text-sm text-gray-600 space-y-4">
+                                <li><strong>The Law</strong><br>Given to Israel to prove man's inability to save himself from sin.</li>
+                                <li><strong>Grace</strong><br>The current age where salvation is a free gift to all who believe and trust in Jesus' blood sacrifice.</li>
+                                <li><strong>The Mystery</strong><br>Doctrine specifically for the Body of Christ revealed through the apostle Paul.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Vertical Timeline -->
+                    <div class="lg:col-span-3 bg-white p-8 md:p-12 rounded-xl shadow-sm border border-gray-100">
+                        <h3 class="font-bold text-2xl text-blood mb-10 text-center">The Biblical Timeline</h3>
+                        
+                        <div class="timeline-container">
+                            <!-- NEW: Creation -->
+                            <div class="timeline-item timeline-item-left">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4 class="font-bold text-lg text-gray-800">Creation</h4>
+                                    <p class="text-sm text-gray-600">"In the beginning..." God creates a perfect world and places man in the Garden. Man is in direct fellowship with his Creator, innocent and free from death.</p>
+                                </div>
+                            </div>
+                            <!-- NEW: The Fall -->
+                            <div class="timeline-item timeline-item-right">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4 class="font-bold text-lg text-gray-800">The Fall of Man</h4>
+                                    <p class="text-sm text-gray-600">Adam and Eve rebel against God. Sin enters the human race, and death follows. The first promise of a coming Savior (the "seed of the woman") is given in Genesis 3:15.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item timeline-item-left">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4 class="font-bold text-lg text-gray-800">The Law</h4>
+                                    <p class="text-sm text-gray-600">From Sinai to the Cross. God deals primarily with the Nation of Israel. The Law was a "schoolmaster" to bring us to Christ by revealing our sin.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item timeline-item-right">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4 class="font-bold text-lg text-gray-800">The Crucifixion</h4>
+                                    <p class="text-sm text-gray-600">The turning point of history. The veil is rent, the blood is shed, and the legal debt of sin is paid in full for all mankind.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item timeline-item-left">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4 class="font-bold text-lg text-blood">Grace / The Church Age</h4>
+                                    <p class="text-sm text-gray-600">The current "dispensation." God is calling out a Body from all nations through faith alone, without the works of the Law.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item timeline-item-right">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4 class="font-bold text-lg text-gray-800">The Rapture</h4>
+                                    <p class="text-sm text-gray-600">The "Blessed Hope." Christ catches away His Church (the Body) before the period of global wrath begins.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item timeline-item-left">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4 class="font-bold text-lg text-gray-800">The Tribulation</h4>
+                                    <p class="text-sm text-gray-600">A seven-year period of judgment. God turns His attention back to the redemption of Israel (Daniel's 70th week).</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item timeline-item-right">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4 class="font-bold text-lg text-gray-800">Armageddon</h4>
+                                    <p class="text-sm text-gray-600">The Second Coming. Jesus Christ returns literally and physically to the earth to defeat His enemies and judge the nations.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item timeline-item-left">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4 class="font-bold text-lg text-gray-800">The Millennium</h4>
+                                    <p class="text-sm text-gray-600">The 1,000-year reign. Christ sits on the throne of David in Jerusalem, bringing peace and righteousness to the whole earth.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item timeline-item-right">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4 class="font-bold text-lg text-blood">New Heaven & New Earth</h4>
+                                    <p class="text-sm text-gray-600">The Eternal State. After the final judgment, God creates a new cosmos where He dwells with man forever. No more sin, no more death, and no more tears.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: The Character of God (Names) -->
+        <section class="mb-20">
+            <h2 class="text-3xl font-bold mb-8 text-center">Knowing the Creator by Name</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="p-8 bg-white border rounded-2xl">
+                    <h4 class="text-2xl font-bold text-blood mb-2">Elohim</h4>
+                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-4 font-bold">The Strong One / Creator</p>
+                    <p class="text-sm text-gray-600 leading-relaxed">Used in Genesis 1:1, this name emphasizes God's power and sovereignty over the material world. It is a plural noun, hinting at the Triune nature of God from the very first verse.</p>
+                </div>
+                <div class="p-8 bg-white border rounded-2xl border-blood shadow-md">
+                    <h4 class="text-2xl font-bold text-blood mb-2">Yahweh (YHWH)</h4>
+                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-4 font-bold">The Self-Existent One</p>
+                    <p class="text-sm text-gray-600 leading-relaxed">God's covenant name. It means "I AM THAT I AM." It signifies that God has no beginning and no end; He is the source of all life and truth.</p>
+                </div>
+                <div class="p-8 bg-white border rounded-2xl">
+                    <h4 class="text-2xl font-bold text-blood mb-2">El Shaddai</h4>
+                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-4 font-bold">God Almighty / All-Sufficient</p>
+                    <p class="text-sm text-gray-600 leading-relaxed">The name used when God promised the impossible to Abraham. It portrays God as the nourisher and the one who is completely sufficient for every human need.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- The "I AM" Statements -->
+        <section class="mb-20">
+            <h2 class="text-3xl font-bold mb-8 text-center">The "I AM" Statements of Christ</h2>
+            <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto">In the Gospel of John, Jesus uses the divine name "I AM" to reveal His identity and how He fulfills every human need.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="p-4 bg-white border border-gray-200 rounded-lg text-center hover:border-blood transition-colors">
+                    <span class="text-xs font-bold uppercase tracking-widest text-gray-400">Bread of Life</span>
+                    <h4 class="text-lg font-bold text-blood mt-1">Sustenance</h4>
+                </div>
+                <div class="p-4 bg-white border border-gray-200 rounded-lg text-center hover:border-blood transition-colors">
+                    <span class="text-xs font-bold uppercase tracking-widest text-gray-400">Light of the World</span>
+                    <h4 class="text-lg font-bold text-blood mt-1">Guidance</h4>
+                </div>
+                <div class="p-4 bg-white border border-gray-200 rounded-lg text-center hover:border-blood transition-colors">
+                    <span class="text-xs font-bold uppercase tracking-widest text-gray-400">The Door</span>
+                    <h4 class="text-lg font-bold text-blood mt-1">Access</h4>
+                </div>
+                <div class="p-4 bg-white border border-gray-200 rounded-lg text-center hover:border-blood transition-colors">
+                    <span class="text-xs font-bold uppercase tracking-widest text-gray-400">Good Shepherd</span>
+                    <h4 class="text-lg font-bold text-blood mt-1">Protection</h4>
+                </div>
+                <div class="p-4 bg-white border border-gray-200 rounded-lg text-center hover:border-blood transition-colors">
+                    <span class="text-xs font-bold uppercase tracking-widest text-gray-400">Resurrection & Life</span>
+                    <h4 class="text-lg font-bold text-blood mt-1">Victory</h4>
+                </div>
+                <div class="p-4 bg-white border border-gray-200 rounded-lg text-center hover:border-blood transition-colors">
+                    <span class="text-xs font-bold uppercase tracking-widest text-gray-400">The Way, Truth, Life</span>
+                    <h4 class="text-lg font-bold text-blood mt-1">Exclusivity</h4>
+                </div>
+                <div class="p-4 bg-white border border-gray-200 rounded-lg text-center hover:border-blood transition-colors">
+                    <span class="text-xs font-bold uppercase tracking-widest text-gray-400">The True Vine</span>
+                    <h4 class="text-lg font-bold text-blood mt-1">Connection</h4>
+                </div>
+                <div class="p-4 bg-white border border-gray-200 rounded-lg text-center hover:border-blood transition-colors">
+                    <span class="text-xs font-bold uppercase tracking-widest text-gray-400">Before Abraham was...</span>
+                    <h4 class="text-lg font-bold text-blood mt-1">Eternity</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Manuscript Reliability -->
+        <section class="mb-20 bg-gray-50 border p-10 rounded-3xl">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold mb-6 text-blood">Can we trust the Text?</h2>
+                <div class="grid md:grid-cols-2 gap-10">
+                    <div>
+                        <p class="text-sm text-gray-600 leading-relaxed mb-4">The Bible is the most well-documented book in human history. While other ancient texts (like Homer’s Iliad) have only a few hundred copies, the New Testament has over <strong>5,800 Greek manuscripts</strong> and over 20,000 in other languages.</p>
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-3 text-xs font-bold uppercase text-gray-500">
+                                <span class="w-2 h-2 bg-blood rounded-full"></span> 
+                                Accuracy Rate: 99.5%
+                            </li>
+                            <li class="flex items-center gap-3 text-xs font-bold uppercase text-gray-500">
+                                <span class="w-2 h-2 bg-blood rounded-full"></span> 
+                                Earliest Fragments: Within 30-50 years of original
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-inner italic border text-sm text-gray-500">
+                        "The evidence for our New Testament writings is ever so much greater than the evidence for many writings of classical authors, the authenticity of which no one dreams of questioning." — F.F. Bruce
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Glossary of Grace -->
+        <section class="mb-20">
+            <h2 class="text-3xl font-bold mb-8 text-center">The Glossary of Grace</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                    <h4 class="font-bold text-blood text-xl mb-2">Justification</h4>
+                    <p class="text-sm text-gray-600">A legal term meaning "to be declared righteous." It is not a process; it is an instantaneous act of God where He credits Christ's righteousness to your account.</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                    <h4 class="font-bold text-blood text-xl mb-2">Sanctification</h4>
+                    <p class="text-sm text-gray-600">The process of being "set apart" for God's use. While our soul is saved instantly, our walk and behavior are progressively sanctified as we grow in Grace.</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                    <h4 class="font-bold text-blood text-xl mb-2">Redemption</h4>
+                    <p class="text-sm text-gray-600">To buy back. Christ paid the "ransom price" (His blood) to purchase us out of the slave market of sin and into the family of God.</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                    <h4 class="font-bold text-blood text-xl mb-2">Propitiation</h4>
+                    <p class="text-sm text-gray-600">The satisfaction of God's holy wrath. Christ's sacrifice didn't just "cover" sin; it satisfied the requirements of justice once and for all.</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                    <h4 class="font-bold text-blood text-xl mb-2">Imputation</h4>
+                    <p class="text-sm text-gray-600">A bookkeeping term. Our sin was imputed (charged) to Christ on the cross, and His righteousness is imputed (credited) to us by faith.</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                    <h4 class="font-bold text-blood text-xl mb-2">Atonement</h4>
+                    <p class="text-sm text-gray-600">The reconciliation of God and man through the shed blood. In Christ, the barrier between us and a Holy God has been permanently removed.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: The Bema vs. Great White Throne -->
+        <section class="mb-20">
+            <div class="bg-gray-900 text-white p-10 rounded-3xl overflow-hidden relative border-4 border-red-900/50">
+                <h2 class="text-3xl font-bold mb-4 text-center">Understanding Future Judgments</h2>
+                <p class="text-center text-sm opacity-70 mb-10 max-w-2xl mx-auto italic">“Behold, now is the accepted time; behold, now is the day of salvation.” — 2 Corinthians 6:2</p>
+                
+                <div class="grid md:grid-cols-2 gap-8 mb-12">
+                    <div class="bg-white/5 p-8 rounded-2xl border border-white/10">
+                        <h4 class="text-xl font-bold text-yellow-600 mb-4">The Bema Seat</h4>
+                        <p class="text-xs font-bold uppercase tracking-widest opacity-50 mb-2">For Believers Only</p>
+                        <p class="text-sm opacity-80 leading-relaxed mb-4">This is not a judgment for sin (as sin was judged at the Cross). It is an evaluation of our service to Christ. It results in <strong>rewards or loss of rewards</strong>, but never the loss of salvation.</p>
+                        <p class="text-xs italic text-gray-400">"For we must all appear before the judgment seat of Christ..." — 2 Cor 5:10</p>
+                    </div>
+                    <div class="bg-white/5 p-8 rounded-2xl border border-white/10">
+                        <h4 class="text-xl font-bold text-gray-400 mb-4">Great White Throne</h4>
+                        <p class="text-xs font-bold uppercase tracking-widest opacity-50 mb-2">For the Unbelieving</p>
+                        <p class="text-sm opacity-80 leading-relaxed mb-4">The final judgment for those who rejected the gift of Grace. It is a judgment based on their own works, which can never meet the standard of God's holiness.</p>
+                        <p class="text-xs italic text-gray-400">"And I saw a great white throne... and the dead were judged out of those things which were written in the books." — Rev 20:11-12</p>
+                    </div>
+                </div>
+
+                <!-- NEW: Urgency & The Mark -->
+                <div class="bg-red-950/60 p-8 rounded-2xl border border-red-500/40 shadow-2xl">
+                    <h3 class="text-2xl font-bold text-red-500 mb-4 uppercase tracking-tighter">The Urgency: Why Today Matters</h3>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h5 class="font-bold text-white mb-2 underline decoration-red-500">The Dispensation of Grace</h5>
+                            <p class="text-xs opacity-80 leading-relaxed">Right now, salvation is as simple as believing the Gospel record. The Holy Spirit is present on earth through the Church, acting as a "restrainer" against pure evil. Accessing the truth is free, and the cost is merely social. This window will close.</p>
+                        </div>
+                        <div>
+                            <h5 class="font-bold text-red-400 mb-2 underline decoration-white">The Tribulation of Blood</h5>
+                            <p class="text-xs opacity-80 leading-relaxed">Once the Church is caught away (The Rapture), the Holy Spirit's restraining influence is lifted. To be saved then will require a literal "denial of the system." Faith will likely cost your life. There will be no "casual" belief when the global order demands total allegiance.</p>
+                        </div>
+                    </div>
+                    <div class="mt-8 pt-8 border-t border-white/10">
+                        <h5 class="font-bold text-red-500 mb-3 flex items-center gap-2">
+                            The Mark of the Beast (Revelation 13)
+                        </h5>
+                        <p class="text-sm opacity-90 leading-relaxed">
+                            The "Mark" is not just a technological tool; it is a <strong>spiritual oath</strong>. Taking the Mark is an explicit denial of God's sovereignty and a permanent siding with Satan. Scripture warns that this choice is irreversible—it seals one's fate at the Great White Throne. During the Tribulation, refusing the Mark means you cannot buy or sell; you must be willing to face martyrdom to show your love for Christ.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Christ: The Center of the Word (Expanded) -->
+        <section class="mb-20 bg-white border p-8 md:p-12 rounded-3xl relative overflow-hidden shadow-sm">
+            <div class="max-w-5xl mx-auto relative z-10">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4 text-blood uppercase tracking-tight">Christ: The Center of the Word</h2>
+                    <p class="text-gray-600 leading-relaxed text-lg max-w-3xl mx-auto">The Bible is not a collection of disconnected stories; it is a single progressive revelation of <strong>Jesus Christ</strong>. From Genesis to Revelation, He is the hidden treasure in every chapter.</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Example 1 -->
+                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:border-blood transition-all group">
+                        <h5 class="font-bold text-blood mb-3 flex items-center gap-2">
+                            <span class="text-gray-300 group-hover:text-blood">01.</span> The Ark of the Covenant
+                        </h5>
+                        <p class="text-sm text-gray-600 leading-relaxed">Incorruptible wood (Christ's humanity) overlaid with pure gold (His deity). Inside was the Law that condemns, but it was covered by the Mercy Seat where blood was sprinkled, turning judgment into mercy.</p>
+                    </div>
+                    
+                    <!-- Example 2 -->
+                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:border-blood transition-all group">
+                        <h5 class="font-bold text-blood mb-3 flex items-center gap-2">
+                            <span class="text-gray-300 group-hover:text-blood">02.</span> The Brazen Serpent
+                        </h5>
+                        <p class="text-sm text-gray-600 leading-relaxed">Those who looked at the bronze serpent on a pole were healed from the venom of death. Jesus identified as that serpent—taking the "venom" of our sin upon Himself so that we might live by a look of faith.</p>
+                    </div>
+
+                    <!-- Example 3 -->
+                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:border-blood transition-all group">
+                        <h5 class="font-bold text-blood mb-3 flex items-center gap-2">
+                            <span class="text-gray-300 group-hover:text-blood">03.</span> Joseph: The Rejected Savior
+                        </h5>
+                        <p class="text-sm text-gray-600 leading-relaxed">Joseph was loved by his father, rejected by his brothers (Israel), sold for silver, and cast into a pit. Yet he rose to the right hand of the King to save the very brothers who rejected him.</p>
+                    </div>
+
+                    <!-- Example 4 -->
+                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:border-blood transition-all group">
+                        <h5 class="font-bold text-blood mb-3 flex items-center gap-2">
+                            <span class="text-gray-300 group-hover:text-blood">04.</span> The Passover Lamb
+                        </h5>
+                        <p class="text-sm text-gray-600 leading-relaxed">A lamb without blemish was slain. Its blood was applied to the doorposts of the house. When the judgment passed over, God said: <em>"When I see the blood, I will pass over you."</em> Our safety is in the Blood, not our behavior.</p>
+                    </div>
+
+                    <!-- Example 5 -->
+                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:border-blood transition-all group">
+                        <h5 class="font-bold text-blood mb-3 flex items-center gap-2">
+                            <span class="text-gray-300 group-hover:text-blood">05.</span> The Cities of Refuge
+                        </h5>
+                        <p class="text-sm text-gray-600 leading-relaxed">Ancient Israel had cities where those fleeing judgment could find safety. Once inside the gates, the "avenger of blood" could not touch them. Christ is our city—inside Him, there is no condemnation.</p>
+                    </div>
+
+                    <!-- Example 6 -->
+                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:border-blood transition-all group">
+                        <h5 class="font-bold text-blood mb-3 flex items-center gap-2">
+                            <span class="text-gray-300 group-hover:text-blood">06.</span> Boaz: The Kinsman Redeemer
+                        </h5>
+                        <p class="text-sm text-gray-600 leading-relaxed">To "redeem" a lost inheritance, one had to be a relative and have the wealth to pay the debt. Christ became our "Kinsman" (human) and had the "wealth" (sinless blood) to buy us back.</p>
+                    </div>
+                </div>
+                
+                <div class="mt-12 text-center italic text-gray-400 text-sm">
+                    "Search the scriptures; for in them ye think ye have eternal life: and they are they which testify of me." — John 5:39
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Call -->
+        <section class="text-center py-10 border-t">
+            <h2 class="text-3xl font-bold mb-6 text-blood">Ready to grow?</h2>
+            <p class="text-gray-600 mb-8 max-w-xl mx-auto">Doctrine is not merely for the classroom; it is meant to shape the heart. The deeper your understanding of the Work, the greater your appreciation for the beauty and glory of the Worker behind it.</p>
+            <a href="index.html" class="inline-block bg-blood text-white font-bold py-3 px-10 rounded-full hover:bg-red-900 transition-all uppercase tracking-widest text-sm">Return Home</a>
+        </section>
+
+    </main>
+
+    <footer class="py-10 bg-gray-100 text-center text-xs text-gray-500 uppercase tracking-widest">
+        &copy; 2026 The Finished Work | Remission through His Blood
+    </footer>
+
+</body>
+</html>
